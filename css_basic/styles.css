@@ -1,18 +1,18 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: light peachpuff;
+    background-color: #FFDAB9;
     margin: 0;
     font-family: Arial, sans-serif;
     color: #333;
 }
 
 
-/* header {
-    background-color: #4CAF50;
+header {
+    background-color: #F4C2C2;
     color: white;
     padding: 10px 20px;
-    text-align: center; */
+    text-align: center; 
 }
 
 
@@ -43,8 +43,8 @@ aside {
 
 
 footer {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #F4C2C2;
+    color: gray;
     text-align: center;
     padding: 10px 20px;
     position: relative;
@@ -53,37 +53,6 @@ footer {
 }
 
 
-a {
-    color: #4CAF50;
-    text-decoration: none;
-
-}
-
-
-/* Make sure your nav list displays in a row */
-header nav ul {
-  display: flex;
-  align-items: center; /* Vertically center items */
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  gap: 20px; /* Add spacing between logo and links */
-}
-
-/* Style the logo */
-.logo {
-  font-size: 1.5em; /* Make logo bigger */
-  font-weight: bold;
-  margin-right: auto; /* Push other nav links to the right */
-}
-
-/* Optional: add spacing and hover effects to links */
-header nav ul li a {
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
-}
-
-header nav ul li a:hover {
-  color: #007bff;
+a:hover {
+    text-decoration: underline;
 }
