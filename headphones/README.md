@@ -38,4 +38,4 @@ The website replicates the layout of a modern tech landing page with:
 
 This project is part of the ALX SE Front-End curriculum.
 
----
+----=
